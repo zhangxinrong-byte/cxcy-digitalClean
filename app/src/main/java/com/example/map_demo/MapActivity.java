@@ -81,15 +81,12 @@ public class MapActivity extends AppCompatActivity implements LocationSource, AM
         LatLng latLng1 = new LatLng(29.530107,106.604236);
         LatLng latLng2 = new LatLng(29.530363,106.609773);
         LatLng latLng3 = new LatLng(29.53534,106.606011);
-        LatLng latLng4 = new LatLng(29.531909,106.60769);
         final Marker marker1 = aMap.addMarker(new MarkerOptions().position(latLng1).title("车辆1").snippet("驾驶员：李响").icon(BitmapDescriptorFactory.fromBitmap(BitmapFactory
                 .decodeResource(getResources(),R.drawable.sashui))));
         final Marker marker2 = aMap.addMarker(new MarkerOptions().position(latLng2).title("车辆2").snippet("驾驶员：张三").icon(BitmapDescriptorFactory.fromBitmap(BitmapFactory
                 .decodeResource(getResources(),R.drawable.baojie))));
         final Marker marker3 = aMap.addMarker(new MarkerOptions().position(latLng3).title("车辆3").snippet("驾驶员：王七").icon(BitmapDescriptorFactory.fromBitmap(BitmapFactory
                 .decodeResource(getResources(),R.drawable.sashui))));
-        final Marker marker4 = aMap.addMarker(new MarkerOptions().position(latLng4).title("车辆4").snippet("驾驶员：齐四").icon(BitmapDescriptorFactory.fromBitmap(BitmapFactory
-                .decodeResource(getResources(),R.drawable.baojie))));
 
     }
 

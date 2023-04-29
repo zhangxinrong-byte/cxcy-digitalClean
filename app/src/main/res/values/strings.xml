@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">map_demo</string>
-    <string name="gotomap">地图展示</string>
+    <string name="gotomap">实时地图</string>
+    <string name="signin">人员签到</string>
 </resources>
